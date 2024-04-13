@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="_6002CEM_AmaanHala.View.DailyTaskListPage"
+             xmlns:model="clr-namespace:_6002CEM_AmaanHala.Model"
+             xmlns:viewModel="clr-namespace:_6002CEM_AmaanHala.ViewModel"
+             x:DataType="viewModel:DailyTaskListPageViewModel"
+             Title="Daily Task">
+
+    <StackLayout Margin="10">
+        <Label Text="Task List" FontSize="24" VerticalOptions="Center" HorizontalOptions="Center" FontAttributes="Bold"/>
+        <Button Text="Add Task" Command="{Binding AddUpdateTasksCommand}" HorizontalOptions="End" VerticalOptions="Start" BackgroundColor="#16bbff"/>
+
+        <CollectionView ItemsSource="{Binding Tasks}">
+            <CollectionView.ItemTemplate>
+                <DataTemplate x:DataType="model:DailyTaskModel">
+                    <Frame Margin="8" Padding="18">
+                        <StackLayout>
+                            <HorizontalStackLayout Spacing="15">
+                                <Label Text="{Binding DailyTask}" FontSize="20" FontAttributes="Bold"/>
+                            </HorizontalStackLayout>
+                            <Label Text="{Binding TaskDescription}" FontSize="16" />
+                        </StackLayout>
+                        <Frame.GestureRecognizers>
+                            <TapGestureRecognizer Command="{Binding Source={x:RelativeSource AncestorType={x:Type viewModel:DailyTaskListPageViewModel}}, Path=DisplayActionCommand}"
+                                                  CommandParameter="{Binding .}" />
+                        </Frame.GestureRecognizers>
+                    </Frame>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+    </StackLayout>
+</ContentPage>
+    

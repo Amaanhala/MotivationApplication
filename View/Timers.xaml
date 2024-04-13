@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="_6002CEM_AmaanHala.View.Timers"
+             Title="Timer">
+
+    <VerticalStackLayout HorizontalOptions="Center" VerticalOptions="Center">
+        <Button x:Name="MainButton"
+                    Text="Quotes"
+                    Clicked="MainButton_OnClicked"
+                    BackgroundColor="#16bbff"
+                    TextColor="black"
+                    WidthRequest="100"
+                    HeightRequest="50"
+                    Margin="-240,-30,0,210"/>
+
+        <Button x:Name="SongsButton"
+                Text="Music"
+                Clicked="SongsButton_OnClicked"
+                BackgroundColor="#16bbff"
+                TextColor="black"
+                WidthRequest="100"
+                HeightRequest="50"
+                Margin="240,-260,0,60"/>
+        <Grid>
+            <GraphicsView x:Name="ProgressView"
+                          BackgroundColor="{StaticResource Primary}"
+                          HeightRequest="200"
+                          WidthRequest="200"
+                          Margin="0,90,0,10"/>
+            <Button x:Name="ProgressButton"
+                    Text="60"
+                    TextColor="Black"
+                    FontSize="35"
+                    FontFamily="fa-regular"
+                    HeightRequest="180"
+                    WidthRequest="180"
+                    CornerRadius="100"
+                    HorizontalOptions="Center"
+                    Clicked="ProgressButton_OnClicked"
+                    BorderWidth="0"
+                    BackgroundColor="WhiteSmoke"
+                    Margin="0,100,0,20"/>
+        </Grid>
+        <Button x:Name="ResetButton"
+                Text="Reset"
+                Clicked="ResetButton_OnClicked"
+                BackgroundColor="#16bbff"
+                TextColor="black"
+                WidthRequest="160"
+                HeightRequest="50"
+                Margin="10,10,10,140"/>
+
+    </VerticalStackLayout>
+</ContentPage>

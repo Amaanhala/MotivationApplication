@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="_6002CEM_AmaanHala.View.SongsPage"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             Title="Songs">
+    
+    <ScrollView>
+        <StackLayout Orientation="Vertical"
+                     HorizontalOptions="Center"
+                     VerticalOptions="Center"
+                     Spacing="20">
+
+            <toolkit:MediaElement x:Name="mediaElement"
+                          ShouldShowPlaybackControls="True"                     
+                          HeightRequest="222"
+                          WidthRequest="400"/>
+
+            <Button Text="Play"
+                    Clicked="OnPlayButtonClick" HorizontalOptions="Start" Margin="46,10,0,0"/>
+
+            <Button Text="Pause"
+                    Clicked="OnPauseButtonClick" HorizontalOptions="Center" Margin="0,-64,0,25"/>
+
+            <Button Text="Next"
+                    Clicked="OnNextButtonClick" HorizontalOptions="End" Margin="0,-89,47,45"/>
+
+            <ListView x:Name="SongList"
+                      ItemsSource="{Binding AudioFiles}"
+                      ItemSelected="OnSongList">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <TextCell Text="{Binding}" />
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

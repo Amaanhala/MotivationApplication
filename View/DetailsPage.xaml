@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="_6002CEM_AmaanHala.View.DetailsPage"
+             xmlns:viewmodel="clr-namespace:_6002CEM_AmaanHala.ViewModel"
+             x:DataType="viewmodel:QuotesDetailsViewModel"
+             Title="Quotes">
+
+
+    <ScrollView BackgroundColor="WhiteSmoke">
+        <Grid RowDefinitions="Auto,Auto,*">
+
+            <Image Aspect="AspectFill"
+                    HeightRequest= "400"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"
+                    Source="{Binding Quote.Image}"
+                    WidthRequest="400"/>
+
+        </Grid>
+    </ScrollView>
+</ContentPage>
