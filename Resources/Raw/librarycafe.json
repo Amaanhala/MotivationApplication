@@ -1,0 +1,83 @@
+[
+  {
+    "Name": "Wellcome Collection Library",
+    "Location": "London",
+    "Details": "The welcome collection museum, library and event space is a hybrid public space that encourages  connections between science and art. The library is free to visit and open to everyone over the age of 18, whether you’re using the collections for research or just curious to find out more.  ",
+    "Image": "https://images.prismic.io/wellcomecollection/009fd9cc709114aa5327d0b68c260b9cfb1be170_btg150421203820.jpg?auto=compress,format",
+    "Latitude": 51.525841,
+    "Longitude": -0.133909
+  },
+
+  {
+    "Name": "Wood Green Library",
+    "Location": "London",
+    "Details": "The Wood Green Library is located on the High Road, London. As well as a range of books to borrow, the Library has other services available including Haringey Council contact Centre, Business Hub, IT Hub and Children’s Library on the 1st Floor leaving no limitations for productivity! ",
+    "Image": "https://isteam.wsimg.com/ip/e38413e7-b67c-463c-97d2-f974ed60365b/IMG_3800.jpeg",
+    "Latitude": 51.59547,
+    "Longitude": -0.10938
+  },
+  {
+    "Name": "British Library",
+    "Location": "London",
+    "Details": "They welcome learners of all ages to the British Library, from school students and teachers to families and community groups. The collection is filled with treasures including ancient manuscripts, world maps, historic newspapers, music recordings, and contemporary photographs  which offers a range of opportunities to explore, connect and interact both onsite, online and nationally.",
+    "Image": "https://cdn.britannica.com/27/212527-050-1678EADF/British-Library-London-England.jpg",
+    "Latitude": 51.5300,
+    "Longitude": 0.1277
+  },
+  {
+    "Name": "Barbican Library",
+    "Location": "London",
+    "Details": "The Barbican Library is a vibrant public library in the heart of the Barbican Centre with books, spoken word recordings, DVDs, CDs and sheet music available for loan to all members. Within the centre, you will also find the Barbican Music Library and Barbican Children's Library, along with places to sit, read and study. ",
+    "Image": "https://pbs.twimg.com/media/DvfrEgWX4AAZFpd.jpg:large",
+    "Latitude": 51.5199,
+    "Longitude": 0.0938
+  },
+  {
+    "Name": "National Art Library at the Victoria & Albert Museum",
+    "Location": "London",
+    "Details": "National Art Library (NAL is located in beautiful and historic reading rooms overlooking the John Madejski Garden. They hold the UK's most comprehensive public reference collection of literature on the fine and decorative arts, including books, journals, exhibition catalogues, and much more.",
+    "Image": "https://vanda-production-assets.s3.amazonaws.com/2022/09/29/15/05/28/4226209e-78f6-4208-b26b-1b82699bf4a2/an-illustrated-evening-with-the-national-art-library_960.jpg",
+    "Latitude": 51.4973,
+    "Longitude": -0.1730
+  },
+  {
+    "Name": "Caya Cafe",
+    "Location": "London",
+    "Details": "CAYA is a your local coffee shop and neighbourhood co-working space in Brixton.A coffee shop and workspace space needed  for the whole community whether you’re a freelancer, student or just a coffee lover! They are here for whatever you need, 7 days a week, offering great food as well as café. ",
+    "Image": "https://included.co/wp-content/uploads/formidable/9/44A9662.jpg",
+    "Latitude": 51.4628,
+    "Longitude": 0.1088
+  },
+  {
+    "Name": "Quiet Coffee",
+    "Location": "London",
+    "Details": "Quiet Coffee is an independent, values based cafe in the heart of Charing Cross. As the name suggests, they are a 'quiet place' on the high street, and they serve specialty coffee, food, and a space for your projects with the location tucked away from the hustle and bustle of London's West End.",
+    "Image": "https://static.wixstatic.com/media/27b54b_1d167da587934d42b96a5445bb723bf2~mv2.jpg/v1/fill/w_640,h_316,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/27b54b_1d167da587934d42b96a5445bb723bf2~mv2.jpg",
+    "Latitude": 51.5081,
+    "Longitude": 0.1255
+  },
+  {
+    "Name": "BFI Reuben Library",
+    "Location": "London",
+    "Details": "The BFI contains a huge collection of books, journals and digitised material about the world of film, television and the moving image. It is available to everyone, free of charge and their priority is comprehensive coverage of the UK, but the collection is international in scope.",
+    "Image": "https://whatson.bfi.org.uk/ArticleMedia/Images/WhatsOn%20images/BFI%20library/bfi-reuben-library.jpg",
+    "Latitude": 51.5065,
+    "Longitude": -0.1149
+  },
+  {
+    "Name": "Bishopsgate Library",
+    "Location": "London",
+    "Details": "True to the building’s historical and cultural heritage, the Library has hosted generations of enquiring minds. Today, the Library houses a collection of rare reference materials and is home to one of the UK’s most subversive archives. Stepping into the polished wooden interior feels warm and welcoming, and the Library is an ideal space for guests to mingle.",
+    "Image": "https://d245m47bicpi64.cloudfront.net/_imager/files/Activities/Languages-and-Writing/46246/Bishopsgate-Institute-The-Library-11_386f058fe2466438d87e734febd43f32.jpg",
+    "Latitude": 51.5187,
+    "Longitude": 0.0793
+  },
+  {
+    "Name": "Central Library Islington",
+    "Location": "London",
+    "Details": "With access to study/seating areas and a range of reading material as well as PCs for public use and free Wi-Fi, you can find a wide range of e-books, e-audiobooks, newspapers and magazines online, free to Islington Library members.",
+    "Image": "https://cdn.prgloo.com/media/1e4c9cafc7944048b2e6bc9bf0f44b66.jpg?width=1200&height=1800",
+    "Latitude": 51.5491,
+    "Longitude": 0.1074
+  }  
+]
